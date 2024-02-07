@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: parameter-space.aux
+The style file: mnras.bst
+Database file #1: ref-parameter.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in cherchneffDustFormationCarbonrich2015
+You've used 33 entries,
+            2881 wiz_defined-function locations,
+            958 strings with 13751 characters,
+and the built_in function-call counts, 15551 in all, are:
+= -- 1272
+> -- 1141
+< -- 92
++ -- 496
+- -- 170
+* -- 1827
+:= -- 2493
+add.period$ -- 0
+call.type$ -- 33
+change.case$ -- 66
+chr.to.int$ -- 32
+cite$ -- 34
+duplicate$ -- 750
+empty$ -- 746
+format.name$ -- 276
+if$ -- 2688
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 35
+newline$ -- 113
+num.names$ -- 244
+pop$ -- 147
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 461
+stack$ -- 0
+substring$ -- 886
+swap$ -- 394
+text.length$ -- 132
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 291
+warning$ -- 1
+while$ -- 255
+width$ -- 0
+write$ -- 341
+(There was 1 warning)

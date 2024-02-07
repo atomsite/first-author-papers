@@ -1,0 +1,205 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Anders \& Grevesse}{Anders \&
+  Grevesse}{1989}]{andersAbundancesElementsMeteoritic1989}
+Anders E.,  Grevesse N.,  1989, \mn@doi [Geochimica et Cosmochimica Acta]
+  {10.1016/0016-7037(89)90286-X}, 53, 197
+
+\bibitem[\protect\citeauthoryear{Callingham, Tuthill, Pope, Williams, Crowther,
+  Edwards, Norris  \& {Kedziora-Chudczer}}{Callingham
+  et~al.}{2019}]{callinghamAnisotropicWindsWolf2019}
+Callingham J.~R.,  Tuthill P.~G.,  Pope B. J.~S.,  Williams P.~M.,  Crowther
+  P.~A.,  Edwards M.,  Norris B.,   {Kedziora-Chudczer} L.,  2019, \mn@doi
+  [Nat. Astron.] {10.1038/s41550-018-0617-7}, 3, 82
+
+\bibitem[\protect\citeauthoryear{Crowther}{Crowther}{2003}]{crowther_dust_2003}
+Crowther P.~A.,  2003, \mn@doi [Astrophys. Space Sci.]
+  {10.1023/A:1026157126395}, 285, 677
+
+\bibitem[\protect\citeauthoryear{Draine \& Salpeter}{Draine \&
+  Salpeter}{1979}]{drainePhysicsDustGrains1979}
+Draine B.~T.,  Salpeter E.~E.,  1979, \mn@doi [ApJ] {10.1086/157165}, 231, 77
+
+\bibitem[\protect\citeauthoryear{Dwek \& Werner}{Dwek \&
+  Werner}{1981}]{dwek_infrared_1981}
+Dwek E.,  Werner M.~W.,  1981, \mn@doi [ApJ] {10.1086/159138}, 248, 138
+
+\bibitem[\protect\citeauthoryear{Dwek, Foster  \& Vancura}{Dwek
+  et~al.}{1996}]{dwekCoolingSputteringInfrared1996}
+Dwek E.,  Foster S.~M.,   Vancura O.,  1996, \mn@doi [ApJ] {10.1086/176725},
+  457, 244
+
+\bibitem[\protect\citeauthoryear{Eatson, Pittard  \& Van~Loo}{Eatson
+  et~al.}{2022}]{eatsonExplorationDustGrain2022}
+Eatson J.~W.,  Pittard J.~M.,   Van~Loo S.,  2022, arXiv:2204.07397 [astro-ph]
+
+\bibitem[\protect\citeauthoryear{Eichler \& Usov}{Eichler \&
+  Usov}{1993}]{eichler_particle_1993}
+Eichler D.,  Usov V.,  1993, \mn@doi [ApJ] {10.1086/172130}, 402, 271
+
+\bibitem[\protect\citeauthoryear{Fahed et~al.,}{Fahed
+  et~al.}{2011}]{fahedSpectroscopyArchetypeCollidingwind2011}
+Fahed R.,  et~al., 2011, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.19035.x},
+  418, 2
+
+\bibitem[\protect\citeauthoryear{Gayley, Owocki  \& Cranmer}{Gayley
+  et~al.}{1997}]{gayley_sudden_1997}
+Gayley K.~G.,  Owocki S.~P.,   Cranmer S.~R.,  1997, \mn@doi [ApJ]
+  {10.1086/303573}, 475, 786
+
+\bibitem[\protect\citeauthoryear{Hendrix, Keppens, van Marle, Camps, Baes  \&
+  Meliani}{Hendrix et~al.}{2016}]{hendrix_pinwheels_2016}
+Hendrix T.,  Keppens R.,  van Marle A.~J.,  Camps P.,  Baes M.,   Meliani Z.,
+  2016, \mn@doi [MNRAS] {10.1093/mnras/stw1289}, 460, 3975
+
+\bibitem[\protect\citeauthoryear{Lamers \& Cassinelli}{Lamers \&
+  Cassinelli}{1999}]{lamersIntroductionStellarWinds1999}
+Lamers H.~J.,  Cassinelli J.~P.,  1999, Introduction to Stellar Winds.
+{Cambridge University Press}
+
+\bibitem[\protect\citeauthoryear{Lau, Eldridge, Hankins, Lamberts, Sakon  \&
+  Williams}{Lau et~al.}{2020}]{lauRevisitingImpactDust2020}
+Lau R.~M.,  Eldridge J.~J.,  Hankins M.~J.,  Lamberts A.,  Sakon I.,   Williams
+  P.~M.,  2020, \mn@doi [ApJ] {10.3847/1538-4357/ab9cb5}, 898, 74
+
+\bibitem[\protect\citeauthoryear{Mewe, Kaastra  \& Liedahl}{Mewe
+  et~al.}{1995}]{mewe1995update}
+Mewe R.,  Kaastra J.,   Liedahl D.,  1995, Legacy, 6, 16
+
+\bibitem[\protect\citeauthoryear{Monnier, Tuthill  \& Danchi}{Monnier
+  et~al.}{1999}]{monnierPinwheelNebulaWR1999}
+Monnier J.~D.,  Tuthill P.~G.,   Danchi W.~C.,  1999, \mn@doi [ApJ]
+  {10.1086/312352}, 525, L97
+
+\bibitem[\protect\citeauthoryear{Monnier, Tuthill, Danchi, Murphy  \&
+  Harries}{Monnier et~al.}{2007}]{monnierKeckAperturemaskingExperiment2007}
+Monnier J.~D.,  Tuthill P.~G.,  Danchi W.~C.,  Murphy N.,   Harries T.~J.,
+  2007, \mn@doi [ApJ] {10.1086/509873}, 655, 1033
+
+\bibitem[\protect\citeauthoryear{Pittard}{Pittard}{2009}]{pittard_3d_2009}
+Pittard J.~M.,  2009, \mn@doi [MNRAS] {10.1111/j.1365-2966.2009.14857.x}, 396,
+  1743
+
+\bibitem[\protect\citeauthoryear{Pittard \& Dawson}{Pittard \&
+  Dawson}{2018}]{pittardCollidingStellarWinds2018}
+Pittard J.~M.,  Dawson B.,  2018, \mn@doi [MNRAS] {10.1093/mnras/sty1025}, 477,
+  5640
+
+\bibitem[\protect\citeauthoryear{Pittard \& Parkin}{Pittard \&
+  Parkin}{2010}]{pittard_3d_2010}
+Pittard J.~M.,  Parkin E.~R.,  2010, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2010.15776.x}, 403, 1657
+
+\bibitem[\protect\citeauthoryear{Pollock et~al.,}{Pollock
+  et~al.}{2021}]{pollockCompetitiveXRayOptical2021}
+Pollock A. M.~T.,  et~al., 2021, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/ac2430}, 923, 191
+
+\bibitem[\protect\citeauthoryear{Prilutskii \& Usov}{Prilutskii \&
+  Usov}{1976}]{prilutskii_x_1976}
+Prilutskii O.~F.,  Usov V.~V.,  1976, Soviet astron., 20, 2
+
+\bibitem[\protect\citeauthoryear{Rosslowe \& Crowther}{Rosslowe \&
+  Crowther}{2015}]{rossloweSpatialDistributionGalactic2015}
+Rosslowe C.~K.,  Crowther P.~A.,  2015, \mn@doi [MNRAS]
+  {10.1093/mnras/stu2525}, 447, 2322
+
+\bibitem[\protect\citeauthoryear{Ruuth \& Spiteri}{Ruuth \&
+  Spiteri}{2005}]{ruuthHighOrderStrongStabilityPreservingRungeKutta2005}
+Ruuth S.~J.,  Spiteri R.~J.,  2005, SIAM J. Numer. Anal., 42, 974
+
+\bibitem[\protect\citeauthoryear{Sander, Hamann  \& Todt}{Sander
+  et~al.}{2012}]{sanderGalacticWCStars2012}
+Sander A.,  Hamann W.-R.,   Todt H.,  2012, \mn@doi [Astronomy \& Astrophysics]
+  {10.1051/0004-6361/201117830}, 540, A144
+
+\bibitem[\protect\citeauthoryear{Soulain et~al.,}{Soulain
+  et~al.}{2018}]{soulainSPHEREViewWolfRayet2018}
+Soulain A.,  et~al., 2018, \mn@doi [A\&A] {10.1051/0004-6361/201832817}, 618,
+  A108
+
+\bibitem[\protect\citeauthoryear{Spitzer}{Spitzer}{2008}]{spitzer_jr._physical_2008}
+Spitzer L.,  2008, Physical {{Processes}} in the {{Interstellar Medium}}.
+{John Wiley \& Sons}
+
+\bibitem[\protect\citeauthoryear{Stevens \& Pollock}{Stevens \&
+  Pollock}{1994}]{stevens_stagnation-point_1994}
+Stevens I.~R.,  Pollock A. M.~T.,  1994, \mn@doi [MNRAS]
+  {10.1093/mnras/269.2.226}, 269, 226
+
+\bibitem[\protect\citeauthoryear{Stevens, Blondin  \& Pollock}{Stevens
+  et~al.}{1992}]{stevens_colliding_1992}
+Stevens I.~R.,  Blondin J.~M.,   Pollock A. M.~T.,  1992, \mn@doi [ApJ]
+  {10.1086/171013}, 386, 265
+
+\bibitem[\protect\citeauthoryear{Stone, Tomida, White  \& Felker}{Stone
+  et~al.}{2020}]{stoneAthenaAdaptiveMesh2020}
+Stone J.~M.,  Tomida K.,  White C.~J.,   Felker K.~G.,  2020, \mn@doi [ApJS]
+  {10.3847/1538-4365/ab929b}, 249, 4
+
+\bibitem[\protect\citeauthoryear{Sugawara et~al.,}{Sugawara
+  et~al.}{2015}]{sugawaraSuzakuMonitoringWolf2015}
+Sugawara Y.,  et~al., 2015, \mn@doi [Publ Astron Soc Jpn Nihon Tenmon Gakkai]
+  {10.1093/pasj/psv099}, 67, 121
+
+\bibitem[\protect\citeauthoryear{Thomas et~al.,}{Thomas
+  et~al.}{2021}]{thomasOrbitStellarMasses2021}
+Thomas J.~D.,  et~al., 2021, \mn@doi [MNRAS] {10.1093/mnras/stab1181}, 504,
+  5221
+
+\bibitem[\protect\citeauthoryear{Tielens, McKee, Seab  \& Hollenbach}{Tielens
+  et~al.}{1994}]{tielens_physics_1994}
+Tielens A. G. G.~M.,  McKee C.~F.,  Seab C.~G.,   Hollenbach D.~J.,  1994,
+  \mn@doi [ApJ] {10.1086/174488}, 431, 321
+
+\bibitem[\protect\citeauthoryear{Tuthill, Monnier  \& Danchi}{Tuthill
+  et~al.}{1999}]{tuthill_dusty_1999}
+Tuthill P.~G.,  Monnier J.~D.,   Danchi W.~C.,  1999, \mn@doi [Nature]
+  {10.1038/19033}, 398, 487
+
+\bibitem[\protect\citeauthoryear{Williams}{Williams}{1995}]{Williams1995}
+Williams P.~M.,  1995, in {van der Hucht} K.~A.,  Williams P.~M.,  eds, ,
+  Wolf-Rayet Stars: {{Binaries}}, Colliding Winds, Evolution: {{Proceedings}}
+  of the 163rd Symposium of the International Astronomical Union, Held in La
+  Biodola, Elba, Italia, May 2\textendash 6, 1994.
+{Springer Netherlands}, {Dordrecht}, pp 335--345,
+  \mn@doi{10.1007/978-94-011-0205-6_79}
+
+\bibitem[\protect\citeauthoryear{Williams, {van der Hucht}  \&
+  Th{\'e}}{Williams et~al.}{1987}]{williamsInfraredPhotometryLatetype1987}
+Williams P.~M.,  {van der Hucht} K.~A.,   Th{\'e} P.~S.,  1987, A\&A, 182, 91
+
+\bibitem[\protect\citeauthoryear{Williams, van~der Hucht  \& Pollock}{Williams
+  et~al.}{1990}]{williamsMultifrequencyVariationsWolfrayet1990}
+Williams P.~M.,  van~der Hucht K.~A.,   Pollock A. M.~T.,  1990, MNRAS, 243,
+  662
+
+\bibitem[\protect\citeauthoryear{Williams et~al.,}{Williams
+  et~al.}{2009}]{williams_orbitally_2009}
+Williams P.~M.,  et~al., 2009, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2009.14664.x}, 395, 1749
+
+\bibitem[\protect\citeauthoryear{Williams, Crowther  \& {van der
+  Hucht}}{Williams et~al.}{2015}]{williamsSpectraWC9Stars2015}
+Williams P.~M.,  Crowther P.~A.,   {van der Hucht} K.~A.,  2015, \mn@doi
+  [MNRAS] {10.1093/mnras/stv409}, 449, 1834
+
+\makeatother
+\end{thebibliography}
