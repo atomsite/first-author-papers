@@ -8,6 +8,7 @@ I have also included the source code for the LaTeX document. Draft papers are no
 ### Postdoctoral Researcher, University of Sheffield
 
 - Eatson, Lichtenberg, Parker & Gerya, 2024: [Devolatilization of extrasolar planetesimals by 60Fe and 26Al heating](2024a-60fe-planetesimal-heating/2024a-60fe-planetesimal-heating.pdf)
+  - Research data available [here](https://github.com/atomsite/2023a-data)
 
 ### PhD, University of Leeds
 
